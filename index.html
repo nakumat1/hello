@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Trang web fan-made giới thiệu Doraemon, bảo bối thần kỳ và những người bạn.">
+  <title>Doraemon World | Thế giới bảo bối</title>
+  <link rel="icon" href="assets/mascot.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <div class="announcement">🔔 Chào mừng đến với thế giới Doraemon — nơi điều kỳ diệu bắt đầu!</div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Doraemon World trang chủ">
+      <img src="assets/mascot.svg" alt="" class="brand-icon">
+      <span>Doraemon<span class="brand-light">World</span></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Mở menu" aria-expanded="false">☰</button>
+    <nav class="nav" id="mainNav">
+      <a href="#home">Trang chủ</a>
+      <a href="#about">Giới thiệu</a>
+      <a href="#gadgets">Bảo bối</a>
+      <a href="#friends">Bạn bè</a>
+      <a href="#quiz">Đố vui</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-bg-circle circle-one"></div><div class="hero-bg-circle circle-two"></div>
+      <div class="hero-copy">
+        <span class="eyebrow">DOKODEMO DOOR • READY?</span>
+        <h1>Chào mừng đến<br>với <span>thế giới Doraemon!</span></h1>
+        <p>Cùng chú mèo máy đến từ tương lai khám phá những bảo bối kỳ diệu, tình bạn và những chuyến phiêu lưu không giới hạn.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#gadgets">Khám phá bảo bối <span>→</span></a>
+          <a class="button button-ghost" href="#about">Tìm hiểu thêm</a>
+        </div>
+        <div class="hero-note"><span class="note-icon">✦</span> Một chút tưởng tượng, thật nhiều niềm vui!</div>
+      </div>
+      <div class="hero-art">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="floating-tag tag-top">未来から来た</div>
+        <img src="assets/mascot.svg" alt="Hình minh họa mèo máy màu xanh theo phong cách hoạt hình" class="hero-mascot">
+        <div class="floating-tag tag-bottom">♪ Nào cùng đi thôi!</div>
+        <span class="spark spark-a">✦</span><span class="spark spark-b">✧</span><span class="spark spark-c">✦</span>
+      </div>
+      <a class="scroll-cue" href="#about">KÉO XUỐNG <span>↓</span></a>
+    </section>
+
+    <section class="section intro-section" id="about">
+      <div class="section-heading">
+        <span class="eyebrow">HELLO, FUTURE!</span>
+        <h2>Chú mèo máy <span>đặc biệt</span></h2>
+        <p>Doraemon đến từ thế kỷ 22 để giúp Nobita vượt qua những rắc rối bằng các bảo bối tương lai.</p>
+      </div>
+      <div class="intro-grid">
+        <article class="info-card blue-card">
+          <div class="card-icon">🤖</div><h3>Mèo máy thế kỷ 22</h3>
+          <p>Chú mèo máy màu xanh với chiếc chuông vàng và chiếc túi thần kỳ trước bụng.</p>
+        </article>
+        <article class="info-card yellow-card">
+          <div class="card-icon">🔔</div><h3>Luôn sẵn sàng giúp đỡ</h3>
+          <p>Doraemon luôn cố gắng giúp Nobita, dù đôi khi mọi chuyện trở nên rắc rối hơn.</p>
+        </article>
+        <article class="info-card pink-card">
+          <div class="card-icon">💙</div><h3>Tình bạn là số một</h3>
+          <p>Những chuyến phiêu lưu nhắc chúng ta biết quan tâm, dũng cảm và tin tưởng bạn bè.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section gadgets-section" id="gadgets">
+      <div class="section-heading">
+        <span class="eyebrow">FROM THE 22ND CENTURY</span>
+        <h2>Túi thần kỳ có gì? <span>✨</span></h2>
+        <p>Chọn một bảo bối để xem công dụng của nó nhé!</p>
+      </div>
+      <div class="gadget-grid">
+        <button class="gadget-card" data-title="Cánh cửa thần kỳ" data-description="Mở cửa và bước đến địa điểm mong muốn. Chỉ cần nghĩ kỹ nơi mình muốn đến trước khi mở cửa!">
+          <span class="gadget-art door-art">🚪</span><span class="gadget-name">Cánh cửa thần kỳ</span><span class="gadget-hint">Khám phá ngay ↗</span>
+        </button>
+        <button class="gadget-card" data-title="Chong chóng tre" data-description="Gắn lên đầu và bay lên không trung để ngắm nhìn thế giới từ trên cao. Trong tưởng tượng, bầu trời chẳng còn xa!">
+          <span class="gadget-art">🚁</span><span class="gadget-name">Chong chóng tre</span><span class="gadget-hint">Khám phá ngay ↗</span>
+        </button>
+        <button class="gadget-card" data-title="Đèn pin thu nhỏ" data-description="Chiếu ánh sáng lên đồ vật để làm nó nhỏ lại. Hãy nhớ sử dụng bảo bối một cách có trách nhiệm nhé!">
+          <span class="gadget-art">🔦</span><span class="gadget-name">Đèn pin thu nhỏ</span><span class="gadget-hint">Khám phá ngay ↗</span>
+        </button>
+        <button class="gadget-card" data-title="Khăn trùm thời gian" data-description="Một món đồ tưởng tượng có thể làm vật thể trở về trạng thái trước đó hoặc tiến tới trạng thái khác.">
+          <span class="gadget-art">🧣</span><span class="gadget-name">Khăn trùm thời gian</span><span class="gadget-hint">Khám phá ngay ↗</span>
+        </button>
+        <button class="gadget-card" data-title="Bánh mì ghi nhớ" data-description="Trong truyện, ăn bánh mì đã in nội dung giúp ghi nhớ bài học. Nhưng ngoài đời, vẫn cần học và ôn tập nha!">
+          <span class="gadget-art">🍞</span><span class="gadget-name">Bánh mì ghi nhớ</span><span class="gadget-hint">Khám phá ngay ↗</span>
+        </button>
+        <button class="gadget-card" data-title="Đèn pin đi xuyên" data-description="Một bảo bối giả tưởng giúp đi xuyên qua vật cản. Hãy để trí tưởng tượng đưa bạn đến những nơi mới lạ!">
+          <span class="gadget-art">✨</span><span class="gadget-name">Đèn pin đi xuyên</span><span class="gadget-hint">Khám phá ngay ↗</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="friends-section" id="friends">
+      <div class="section friend-layout">
+        <div class="friend-copy">
+          <span class="eyebrow">THE GANG</span>
+          <h2>Những người bạn<br><span>không thể thiếu</span></h2>
+          <p>Mỗi người một tính cách, nhưng khi cùng nhau, họ tạo nên những kỷ niệm đáng nhớ.</p>
+          <a href="#quiz" class="text-link">Thử thách fan Doraemon <span>→</span></a>
+        </div>
+        <div class="friend-list">
+          <div class="friend-item"><span class="friend-avatar nobita">👦🏻</span><div><h3>Nobita</h3><p>Hậu đậu nhưng tốt bụng</p></div><span class="friend-number">01</span></div>
+          <div class="friend-item"><span class="friend-avatar shizuka">🎀</span><div><h3>Shizuka</h3><p>Dịu dàng và chăm chỉ</p></div><span class="friend-number">02</span></div>
+          <div class="friend-item"><span class="friend-avatar gian">💪</span><div><h3>Jaian</h3><p>Mạnh mẽ, đôi khi nóng tính</p></div><span class="friend-number">03</span></div>
+          <div class="friend-item"><span class="friend-avatar suneo">🦊</span><div><h3>Suneo</h3><p>Thích khoe khoang, lanh lợi</p></div><span class="friend-number">04</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section quiz-section" id="quiz">
+      <div class="quiz-box">
+        <div class="quiz-emoji">🛎️</div>
+        <span class="eyebrow">FAN CHALLENGE</span>
+        <h2>Đố bạn biết!</h2>
+        <p class="quiz-question" id="quizQuestion">Doraemon sợ con vật nào nhất?</p>
+        <div class="quiz-options" id="quizOptions">
+          <button data-answer="mèo">Mèo</button><button data-answer="chuột">Chuột</button><button data-answer="chó">Chó</button>
+        </div>
+        <p class="quiz-feedback" id="quizFeedback" aria-live="polite"></p>
+        <button class="button button-primary quiz-next" id="nextQuestion">Câu tiếp theo ↻</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand footer-brand" href="#home"><img src="assets/mascot.svg" alt="" class="brand-icon"><span>Doraemon<span class="brand-light">World</span></span></a>
+    <p>Một góc nhỏ dành cho trí tưởng tượng và tình bạn 💙</p>
+    <small>Fan-made website • Không phải trang web chính thức. Doraemon và các nhân vật thuộc về chủ sở hữu bản quyền tương ứng.</small>
+    <a href="#home" class="back-top">Lên đầu trang ↑</a>
+  </footer>
+
+  <dialog class="gadget-dialog" id="gadgetDialog">
+    <button class="dialog-close" id="dialogClose" aria-label="Đóng">×</button>
+    <div class="dialog-icon" id="dialogIcon">✨</div>
+    <span class="eyebrow">BẢO BỐI THẦN KỲ</span>
+    <h2 id="dialogTitle">Tên bảo bối</h2>
+    <p id="dialogDescription">Mô tả bảo bối.</p>
+    <button class="button button-primary" id="dialogOk">Tuyệt quá!</button>
+  </dialog>
+</body>
+</html>
